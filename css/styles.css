@@ -1,0 +1,33 @@
+body {
+  font-family: Tahoma, geneva, georgia, sans-serif;
+}
+
+.container {
+  max-width: 415px;
+}
+
+ul {
+  list-style: none;
+  border: solid 2px #000;
+  padding: 5px;
+  background: #e4f574;
+  border-radius: 10px;
+}
+
+.loading {
+  border: 20px solid #f3f3f3;
+  border-top: 20px solid rgb(0, 2, 139);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
